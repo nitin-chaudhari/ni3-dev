@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nitin Chaudhari | Senior Data Engineer</title>
+
+    <meta name="description"
+        content="Nitin Chaudhari — Senior Data Engineer specializing in Snowflake, Databricks, PySpark, AWS, Azure, dbt and scalable data platforms.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        neon: "#39ff14",
+                        neonDark: "#1ed600"
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <nav class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="nav-logo">
+                ni3.dev
+            </a>
+
+            <div class="nav-links">
+
+                <a href="#about">About</a>
+                <a href="#architecture">Architecture</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <a href="#contact" class="nav-talk">
+                Let's Talk
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section id="home" class="hero">
+
+            <!-- Floating technology background -->
+            <div class="hero-tech-bg" aria-hidden="true">
+
+                <div class="floating-tech tech-snowflake">
+                    <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/snowflake/default.svg"
+                        alt="Snowflake"
+                    />
+                </div>
+
+                <div class="floating-tech tech-databricks">
+                    <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/databricks/default.svg"
+                        alt="Databricks"
+                    />
+                </div>
+
+                <div class="floating-tech tech-airflow">
+                    <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/airflow/default.svg"
+                        alt="Apache Airflow"
+                    />
+                </div>
+
+                <div class="floating-tech tech-aws">
+                    <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/aws/default.svg"
+                        alt="AWS"
+                    />
+                </div>
+
+                <div class="floating-tech tech-azure">
+                    <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/azure/default.svg"
+                        alt="Microsoft Azure"
+                    />
+                </div>
+
+                <div class="floating-tech tech-dbt">
+                    <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/dbt/default.svg"
+                        alt="dbt"
+                    />
+                </div>
+
+                <div class="floating-tech tech-python">
+                    <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/python/default.svg"
+                        alt="Python"
+                    />
+                </div>
+
+                <div class="floating-tech tech-postgres">
+                    <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/postgresql/default.svg"
+                        alt="PostgreSQL"
+                    />
+                </div>
+
+            </div>
+
+            <div class="hero-grid"></div>
+
+            <div class="hero-content">
+
+                <div class="hero-terminal-label">
+                    <span class="terminal-status"></span>
+                    DATA ENGINEER / CLOUD / ETL
+                </div>
+
+                <h1>
+                    Nitin <span>Chaudhari</span>
+                </h1>
+
+                <h2>
+                    Senior Data Engineer
+                    <span>·</span>
+                    Cloud Engineer
+                    <span>·</span>
+                    ETL Specialist
+                </h2>
+
+                <p class="hero-description">
+                    I design scalable data pipelines, cloud data platforms
+                    and reliable ELT systems using modern data engineering
+                    technologies.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="#experience" class="btn-primary">
+                        Explore Experience
+                        <span>↗</span>
+                    </a>
+
+                    <a href="#contact" class="btn-secondary">
+                        Get In Touch
+                    </a>
+
+                </div>
+
+
+                <div class="hero-stats">
+
+                    <div class="hero-stat">
+
+                        <strong id="experienceYears">
+                            0+
+                        </strong>
+
+                        <span>
+                            Years Experience
+                        </span>
+
+                    </div>
+
+                    <div class="hero-stat">
+
+                        <strong>
+                            500TB+
+                        </strong>
+
+                        <span>
+                            Data Migrated
+                        </span>
+
+                    </div>
+
+                    <div class="hero-stat">
+
+                        <strong>
+                            100+
+                        </strong>
+
+                        <span>
+                            Pipelines Built
+                        </span>
+
+                    </div>
+
+                    <div class="hero-stat">
+
+                        <strong>
+                            5+
+                        </strong>
+
+                        <span>
+                            Projects Delivered
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-scroll">
+
+                <span>SCROLL TO EXPLORE</span>
+
+                <div class="scroll-line"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section id="about" class="section about-section">
+
+            <div class="section-header">
+
+                <span>01 / ABOUT</span>
+
+                <h2>
+                    Building data systems
+                    that scale.
+                </h2>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-content">
+
+                    <p class="about-intro">
+
+                        Senior Data Engineer with
+                        <strong id="aboutExperienceYears">
+                            0+ years
+                        </strong>
+                        of experience designing scalable data pipelines
+                        and ELT solutions for enterprise data platforms.
+
+                    </p>
+
+
+                    <p class="about-description">
+
+                        I work across cloud data engineering, ingestion,
+                        transformation, orchestration, data quality and
+                        performance optimization - turning complex data
+                        workflows into reliable and maintainable platforms.
+
+                    </p>
+
+
+                    <div class="about-focus">
+
+                        <div>
+
+                            <span>01</span>
+
+                            <p>
+                                Scalable Data Pipelines
+                            </p>
+
+                        </div>
+
+                        <div>
+
+                            <span>02</span>
+
+                            <p>
+                                Cloud Data Platforms
+                            </p>
+
+                        </div>
+
+                        <div>
+
+                            <span>03</span>
+
+                            <p>
+                                ETL / ELT Architecture
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TERMINAL -->
+
+                <div class="about-terminal">
+
+                    <div class="terminal-header">
+
+                        <div class="terminal-dots">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <div class="terminal-title">
+                            ni3.dev / profile
+                        </div>
+
+                    </div>
+
+
+                    <div class="terminal-body">
+
+                        <div class="terminal-line">
+
+                            <span class="terminal-prompt">
+                                $
+                            </span>
+
+                            <span>
+                                whoami
+                            </span>
+
+                        </div>
+
+                        <div class="terminal-output">
+                            Nitin Chaudhari
+                        </div>
+
+
+                        <div class="terminal-line">
+
+                            <span class="terminal-prompt">
+                                $
+                            </span>
+
+                            <span>
+                                role
+                            </span>
+
+                        </div>
+
+                        <div class="terminal-output">
+                            Senior Data Engineer
+                        </div>
+
+
+                        <div class="terminal-line">
+
+                            <span class="terminal-prompt">
+                                $
+                            </span>
+
+                            <span>
+                                focus
+                            </span>
+
+                        </div>
+
+                        <div class="terminal-output">
+                            Data Engineering · Cloud · ETL
+                        </div>
+
+
+                        <div class="terminal-line">
+
+                            <span class="terminal-prompt">
+                                $
+                            </span>
+
+                            <span>
+                                stack
+                            </span>
+
+                        </div>
+
+                        <div class="terminal-output">
+                            Snowflake · Databricks · AWS · Azure
+                        </div>
+
+
+                        <div class="terminal-line">
+
+                            <span class="terminal-prompt">
+                                $
+                            </span>
+
+                            <span>
+                                status
+                            </span>
+
+                        </div>
+
+                        <div class="terminal-output terminal-online">
+                            AVAILABLE FOR OPPORTUNITIES
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ARCHITECTURE / DATA STACK
+        ========================== -->
+
+        <section id="architecture" class="section architecture-section">
+
+            <div class="section-header">
+
+                <span>02 / DATA STACK</span>
+
+                <h2>
+                    Tools behind the pipeline.
+                </h2>
+
+                <p>
+                    Explore the technologies used across my data engineering
+                    projects. Select a technology to trace where it was used.
+                </p>
+
+            </div>
+
+
+            <!-- CATEGORY NAV -->
+
+            <div class="stack-category-wrapper">
+
+                <div class="stack-category-nav">
+
+                    <button
+                        class="stack-category active"
+                        data-category="sources">
+
+                        <span>01</span>
+                        Data Sources
+
+                    </button>
+
+                    <button
+                        class="stack-category"
+                        data-category="cloud">
+
+                        <span>02</span>
+                        Cloud
+
+                    </button>
+
+                    <button
+                        class="stack-category"
+                        data-category="compute">
+
+                        <span>03</span>
+                        Compute
+
+                    </button>
+
+                    <button
+                        class="stack-category"
+                        data-category="transformation">
+
+                        <span>04</span>
+                        Transformation
+
+                    </button>
+
+                    <button
+                        class="stack-category"
+                        data-category="orchestration">
+
+                        <span>05</span>
+                        Orchestration
+
+                    </button>
+
+                    <button
+                        class="stack-category"
+                        data-category="quality">
+
+                        <span>06</span>
+                        Data Quality
+
+                    </button>
+
+                    <button
+                        class="stack-category"
+                        data-category="monitoring">
+
+                        <span>07</span>
+                        Monitoring
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- TECHNOLOGY NODES -->
+
+            <div class="tech-stack-panel">
+
+                <div
+                    class="tech-category active"
+                    data-tech-group="sources">
+
+                    <button class="tech-node" data-tech="postgresql">
+                        PostgreSQL
+                    </button>
+
+                    <button class="tech-node" data-tech="mysql">
+                        MySQL
+                    </button>
+
+                    <button class="tech-node" data-tech="sqlserver">
+                        MS SQL Server
+                    </button>
+
+                </div>
+
+
+                <div
+                    class="tech-category"
+                    data-tech-group="cloud">
+
+                    <button class="tech-node" data-tech="aws">
+                        AWS
+                    </button>
+
+                    <button class="tech-node" data-tech="azure">
+                        Azure
+                    </button>
+
+                    <button class="tech-node" data-tech="s3">
+                        Amazon S3
+                    </button>
+
+                    <button class="tech-node" data-tech="adls">
+                        ADLS Gen2
+                    </button>
+
+                </div>
+
+
+                <div
+                    class="tech-category"
+                    data-tech-group="compute">
+
+                    <button class="tech-node" data-tech="databricks">
+                        Databricks
+                    </button>
+
+                    <button class="tech-node" data-tech="snowflake">
+                        Snowflake
+                    </button>
+
+                    <button class="tech-node" data-tech="pyspark">
+                        PySpark
+                    </button>
+
+                    <button class="tech-node" data-tech="spark">
+                        Spark
+                    </button>
+
+                </div>
+
+
+                <div
+                    class="tech-category"
+                    data-tech-group="transformation">
+
+                    <button class="tech-node" data-tech="dbt">
+                        dbt
+                    </button>
+
+                    <button class="tech-node" data-tech="matillion">
+                        Matillion
+                    </button>
+
+                    <button class="tech-node" data-tech="python">
+                        Python
+                    </button>
+
+                    <button class="tech-node" data-tech="sql">
+                        SQL
+                    </button>
+
+                </div>
+
+
+                <div
+                    class="tech-category"
+                    data-tech-group="orchestration">
+
+                    <button class="tech-node" data-tech="airflow">
+                        Airflow
+                    </button>
+
+                    <button class="tech-node" data-tech="adf">
+                        Azure Data Factory
+                    </button>
+
+                    <button class="tech-node" data-tech="logic-apps">
+                        Logic Apps
+                    </button>
+
+                </div>
+
+
+                <div
+                    class="tech-category"
+                    data-tech-group="quality">
+
+                    <button class="tech-node" data-tech="data-quality">
+                        Data Quality
+                    </button>
+
+                    <button class="tech-node" data-tech="data-modeling">
+                        Data Modeling
+                    </button>
+
+                    <button class="tech-node" data-tech="scd">
+                        SCD Type 1 / 2
+                    </button>
+
+                </div>
+
+
+                <div
+                    class="tech-category"
+                    data-tech-group="monitoring">
+
+                    <button class="tech-node" data-tech="monitoring">
+                        Pipeline Monitoring
+                    </button>
+
+                    <button class="tech-node" data-tech="azure-devops">
+                        Azure DevOps
+                    </button>
+
+                    <button class="tech-node" data-tech="sns">
+                        AWS SNS
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- TRACE PANEL -->
+
+            <div class="trace-panel">
+
+                <div class="trace-header">
+
+                    <div>
+
+                        <span>
+                            LIVE TRACE
+                        </span>
+
+                        <h3 id="traceTitle">
+                            Select a technology
+                        </h3>
+
+                    </div>
+
+                    <button
+                        id="resetTrace"
+                        class="trace-reset">
+
+                        RESET
+
+                    </button>
+
+                </div>
+
+
+                <div
+                    id="traceContent"
+                    class="trace-content">
+
+                    <div class="trace-empty">
+
+                        <span class="trace-icon">
+                            +
+                        </span>
+
+                        <p>
+                            Select a technology above to see
+                            where it appears in my experience.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EXPERIENCE
+        ========================== -->
+
+        <section id="experience" class="section experience-section">
+
+            <div class="section-header">
+
+                <span>03 / EXPERIENCE</span>
+
+                <h2>
+                    Engineering data at scale.
+                </h2>
+
+                <p>
+                    Selected projects across enterprise data platforms,
+                    cloud migration and large-scale ETL systems.
+                </p>
+
+            </div>
+
+
+            <div class="experience-list">
+
+
+                <!-- EBAY -->
+
+                <article
+                    class="experience-card"
+                    data-project="ebay"
+                    data-techs="spark,python,data-quality,monitoring,sql">
+
+                    <div class="experience-number">
+                        01
+                    </div>
+
+                    <div class="experience-main">
+
+                        <div class="experience-top">
+
+                            <div>
+
+                                <span class="experience-client">
+                                    CLIENT
+                                </span>
+
+                                <h3>
+                                    eBay
+                                </h3>
+
+                            </div>
+
+                            <span class="experience-date">
+                                2024 — PRESENT
+                            </span>
+
+                        </div>
+
+
+                        <p class="experience-role">
+                            Data Engineering · Spark · SQL
+                        </p>
+
+
+                        <ul class="experience-points">
+
+                            <li>
+                                Developed and optimized incremental
+                                data pipelines and SQL queries.
+                            </li>
+
+                            <li>
+                                Reduced processing time from
+                                2–3 hours to approximately 15 minutes.
+                            </li>
+
+                            <li>
+                                Implemented data quality checks,
+                                automated alerts and monitoring.
+                            </li>
+
+                            <li>
+                                Built SQL data lineage and pipeline
+                                monitoring dashboards.
+                            </li>
+
+                        </ul>
+
+
+                        <div class="experience-tags">
+
+                            <span data-tech-badge="spark">
+                                Spark SQL
+                            </span>
+
+                            <span data-tech-badge="python">
+                                Python
+                            </span>
+
+                            <span data-tech-badge="sql">
+                                SQL
+                            </span>
+
+                            <span data-tech-badge="data-quality">
+                                Data Quality
+                            </span>
+
+                            <span data-tech-badge="monitoring">
+                                Monitoring
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- MARS PETNUTRITION -->
+
+                <article
+                    class="experience-card"
+                    data-project="mars-petnutrition"
+                    data-techs="azure,adf,adls,databricks,pyspark,sql,azure-devops">
+
+                    <div class="experience-number">
+                        02
+                    </div>
+
+                    <div class="experience-main">
+
+                        <div class="experience-top">
+
+                            <div>
+
+                                <span class="experience-client">
+                                    CLIENT
+                                </span>
+
+                                <h3>
+                                    MARS PetNutrition
+                                </h3>
+
+                            </div>
+
+                            <span class="experience-date">
+                                2024 — PRESENT
+                            </span>
+
+                        </div>
+
+
+                        <p class="experience-role">
+                            Cloud Data Engineering · Migration
+                        </p>
+
+
+                        <ul class="experience-points">
+
+                            <li>
+                                Built ADF ingestion and PySpark
+                                transformation pipelines.
+                            </li>
+
+                            <li>
+                                Migrated data for 70+ retailers across
+                                50+ markets into Databricks.
+                            </li>
+
+                            <li>
+                                Developed and maintained 100+ reusable
+                                pipelines.
+                            </li>
+
+                            <li>
+                                Managed UAT, production bug fixes and
+                                change requests.
+                            </li>
+
+                        </ul>
+
+
+                        <div class="experience-tags">
+
+                            <span data-tech-badge="azure">
+                                Azure
+                            </span>
+
+                            <span data-tech-badge="adf">
+                                ADF
+                            </span>
+
+                            <span data-tech-badge="adls">
+                                ADLS Gen2
+                            </span>
+
+                            <span data-tech-badge="databricks">
+                                Databricks
+                            </span>
+
+                            <span data-tech-badge="pyspark">
+                                PySpark
+                            </span>
+
+                            <span data-tech-badge="sql">
+                                SQL
+                            </span>
+
+                            <span data-tech-badge="azure-devops">
+                                Azure DevOps
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- MARS PNO -->
+
+                <article
+                    class="experience-card"
+                    data-project="mars-pno"
+                    data-techs="azure,adf,adls,databricks,pyspark,logic-apps,azure-devops">
+
+                    <div class="experience-number">
+                        03
+                    </div>
+
+                    <div class="experience-main">
+
+                        <div class="experience-top">
+
+                            <div>
+
+                                <span class="experience-client">
+                                    CLIENT
+                                </span>
+
+                                <h3>
+                                    MARS PnO
+                                </h3>
+
+                            </div>
+
+                            <span class="experience-date">
+                                2024 — PRESENT
+                            </span>
+
+                        </div>
+
+
+                        <p class="experience-role">
+                            Data Platform · Cloud Engineering
+                        </p>
+
+
+                        <ul class="experience-points">
+
+                            <li>
+                                Built ADF ingestion pipelines with
+                                scalable PySpark transformations.
+                            </li>
+
+                            <li>
+                                Designed monitoring and notification
+                                workflows.
+                            </li>
+
+                            <li>
+                                Integrated Logic Apps for operational
+                                alerts and notifications.
+                            </li>
+
+                            <li>
+                                Secured data workflows using
+                                Azure Key Vault.
+                            </li>
+
+                        </ul>
+
+
+                        <div class="experience-tags">
+
+                            <span data-tech-badge="azure">
+                                Azure
+                            </span>
+
+                            <span data-tech-badge="adf">
+                                ADF
+                            </span>
+
+                            <span data-tech-badge="adls">
+                                ADLS Gen2
+                            </span>
+
+                            <span data-tech-badge="databricks">
+                                Databricks
+                            </span>
+
+                            <span data-tech-badge="pyspark">
+                                PySpark
+                            </span>
+
+                            <span data-tech-badge="logic-apps">
+                                Logic Apps
+                            </span>
+
+                            <span data-tech-badge="azure-devops">
+                                Azure DevOps
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- JOLLIBEE -->
+
+                <article
+                    class="experience-card"
+                    data-project="jollibee"
+                    data-techs="matillion,dbt,snowflake,python,sql,postgresql,aws,s3,sns">
+
+                    <div class="experience-number">
+                        04
+                    </div>
+
+                    <div class="experience-main">
+
+                        <div class="experience-top">
+
+                            <div>
+
+                                <span class="experience-client">
+                                    CLIENT
+                                </span>
+
+                                <h3>
+                                    Jollibee Foods Corporation
+                                </h3>
+
+                            </div>
+
+                            <span class="experience-date">
+                                2021 — 2024
+                            </span>
+
+                        </div>
+
+
+                        <p class="experience-role">
+                            Snowflake · dbt · AWS
+                        </p>
+
+
+                        <ul class="experience-points">
+
+                            <li>
+                                Built Matillion ingestion pipelines
+                                and scalable dbt transformation models.
+                            </li>
+
+                            <li>
+                                Implemented incremental merge and
+                                SCD Type 1 transformations.
+                            </li>
+
+                            <li>
+                                Developed reusable dbt macros,
+                                query tags and modular data models.
+                            </li>
+
+                            <li>
+                                Implemented pipeline alerts using
+                                AWS SNS and Microsoft Teams.
+                            </li>
+
+                        </ul>
+
+
+                        <div class="experience-tags">
+
+                            <span data-tech-badge="matillion">
+                                Matillion
+                            </span>
+
+                            <span data-tech-badge="dbt">
+                                dbt
+                            </span>
+
+                            <span data-tech-badge="snowflake">
+                                Snowflake
+                            </span>
+
+                            <span data-tech-badge="python">
+                                Python
+                            </span>
+
+                            <span data-tech-badge="sql">
+                                SQL
+                            </span>
+
+                            <span data-tech-badge="postgresql">
+                                PostgreSQL
+                            </span>
+
+                            <span data-tech-badge="aws">
+                                AWS
+                            </span>
+
+                            <span data-tech-badge="s3">
+                                S3
+                            </span>
+
+                            <span data-tech-badge="sns">
+                                AWS SNS
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- GLOBE -->
+
+                <article
+                    class="experience-card"
+                    data-project="globe"
+                    data-techs="snowflake,aws,s3,python,sql,airflow,pyspark,data-quality,monitoring">
+
+                    <div class="experience-number">
+                        05
+                    </div>
+
+                    <div class="experience-main">
+
+                        <div class="experience-top">
+
+                            <div>
+
+                                <span class="experience-client">
+                                    CLIENT
+                                </span>
+
+                                <h3>
+                                    Globe Telecom
+                                </h3>
+
+                            </div>
+
+                            <span class="experience-date">
+                                2021 — 2024
+                            </span>
+
+                        </div>
+
+
+                        <p class="experience-role">
+                            Large Scale Data Engineering · AWS
+                        </p>
+
+
+                        <ul class="experience-points">
+
+                            <li>
+                                Built ETL pipelines using Snowflake,
+                                AWS, Python, SQL and Airflow.
+                            </li>
+
+                            <li>
+                                Migrated 500TB+ historical and
+                                incremental data.
+                            </li>
+
+                            <li>
+                                Implemented SCD Type 2 data models
+                                for historical tracking.
+                            </li>
+
+                            <li>
+                                Built Snowflake monitoring dashboards
+                                and reusable data quality frameworks.
+                            </li>
+
+                        </ul>
+
+
+                        <div class="experience-tags">
+
+                            <span data-tech-badge="snowflake">
+                                Snowflake
+                            </span>
+
+                            <span data-tech-badge="aws">
+                                AWS
+                            </span>
+
+                            <span data-tech-badge="s3">
+                                S3
+                            </span>
+
+                            <span data-tech-badge="python">
+                                Python
+                            </span>
+
+                            <span data-tech-badge="sql">
+                                SQL
+                            </span>
+
+                            <span data-tech-badge="airflow">
+                                Airflow
+                            </span>
+
+                            <span data-tech-badge="pyspark">
+                                PySpark
+                            </span>
+
+                            <span data-tech-badge="data-quality">
+                                Data Quality
+                            </span>
+
+                            <span data-tech-badge="monitoring">
+                                Monitoring
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SKILLS
+        ========================== -->
+
+        <section id="skills" class="section skills-section">
+
+            <div class="section-header">
+
+                <span>04 / SKILLS</span>
+
+                <h2>
+                    Engineering toolkit.
+                </h2>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+
+                    <span class="skill-index">
+                        01
+                    </span>
+
+                    <h3>
+                        Languages
+                    </h3>
+
+                    <p>
+                        Python · SQL · JavaScript
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <span class="skill-index">
+                        02
+                    </span>
+
+                    <h3>
+                        Cloud
+                    </h3>
+
+                    <p>
+                        AWS · Azure · S3 · ADLS · ADF · Key Vault
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <span class="skill-index">
+                        03
+                    </span>
+
+                    <h3>
+                        Data Engineering
+                    </h3>
+
+                    <p>
+                        PySpark · Spark · ETL · ELT · Data Modeling
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <span class="skill-index">
+                        04
+                    </span>
+
+                    <h3>
+                        Platforms
+                    </h3>
+
+                    <p>
+                        Snowflake · Databricks · MySQL · PostgreSQL
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <span class="skill-index">
+                        05
+                    </span>
+
+                    <h3>
+                        Transformation
+                    </h3>
+
+                    <p>
+                        dbt · Matillion · SCD Type 1 · SCD Type 2
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <span class="skill-index">
+                        06
+                    </span>
+
+                    <h3>
+                        Orchestration
+                    </h3>
+
+                    <p>
+                        Airflow · Azure Data Factory · Logic Apps
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <span class="skill-index">
+                        07
+                    </span>
+
+                    <h3>
+                        DevOps
+                    </h3>
+
+                    <p>
+                        Git · GitHub · GitLab · Bitbucket · Docker
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <span class="skill-index">
+                        08
+                    </span>
+
+                    <h3>
+                        Quality & Monitoring
+                    </h3>
+
+                    <p>
+                        Data Quality · Pipeline Monitoring · Azure DevOps
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="contact-container">
+
+                <span class="contact-label">
+                    05 / CONTACT
+                </span>
+
+                <h2>
+                    Let's build something
+                    <span>reliable.</span>
+                </h2>
+
+                <p>
+                    Looking for opportunities to build scalable
+                    data platforms and solve complex data problems.
+                </p>
+
+
+                <div class="contact-actions">
+
+                    <a
+                        href="mailto:nitinchaudariofficial@gmail.com"
+                        class="contact-email">
+
+                        nitinchaudariofficial@gmail.com
+
+                        <span>
+                            ↗
+                        </span>
+
+                    </a>
+
+                </div>
+
+
+                <div class="social-links">
+
+                    <a
+                        href="https://linkedin.com/in/nitin-chaudhari"
+                        target="_blank">
+
+                        LinkedIn
+                        ↗
+
+                    </a>
+
+                    <a
+                        href="https://github.com/nitin-chaudhari"
+                        target="_blank">
+
+                        GitHub
+                        ↗
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div>
+
+            <span>
+                © 2026 Nitin Chaudhari
+            </span>
+
+        </div>
+
+        <div>
+
+            <span>
+                Built with data &amp; curiosity.
+            </span>
+
+        </div>
+
+        <div>
+
+            <span class="footer-status">
+                ● SYSTEM ONLINE
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
